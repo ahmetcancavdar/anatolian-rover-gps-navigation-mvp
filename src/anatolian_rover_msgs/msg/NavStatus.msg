@@ -1,0 +1,12 @@
+std_msgs/Header header
+float64 current_latitude
+float64 current_longitude
+float64 target_latitude
+float64 target_longitude
+float32 distance_to_target
+float32 target_bearing_deg
+float32 current_heading_deg
+float32 heading_error_deg
+bool target_reached
+string nav_state
+string last_command
